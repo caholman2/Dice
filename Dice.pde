@@ -33,7 +33,7 @@ void draw()
   }
   rect(0,450,450,50);
   fill(0);
-  text("Sum: " + sum + "\n" + "Click to roll again!", 20,470);
+  text("Sum: " + sum + "    " + "Average: " + sum/16.0 + "\n" + "Click to roll again!", 20,470);
   
 }
 void mousePressed()
